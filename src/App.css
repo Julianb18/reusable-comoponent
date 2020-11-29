@@ -7,7 +7,7 @@
   pointer-events: none;
 }
 img {
-  width: 400px;
+  width: 350px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -29,6 +29,22 @@ img {
 
 .App-link {
   color: #61dafb;
+}
+
+.article-card {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  margin: 10px 0;
+}
+
+.content {
+  width: 80%;
+  padding: 0 20px;
+  /* text-align: left; */
 }
 
 @keyframes App-logo-spin {
